@@ -39,7 +39,7 @@ namespace PersonalSiteV2.UI.MVC.Controllers
                 }
                 catch (Exception ex)
                 {
-                    ViewBag.Errormessage = $"Sorry, something went wrong. Error message: {ex.Message} <br />{ex.StackTrace}";
+                    ViewBag.ErrorMessage = $"Sorry, something went wrong. Error message: {ex.Message} <br />{ex.StackTrace}";
                     return View(cvm);
                 }
             }
