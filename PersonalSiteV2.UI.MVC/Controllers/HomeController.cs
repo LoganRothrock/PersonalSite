@@ -26,5 +26,11 @@ namespace PersonalSiteV2.UI.MVC.Controllers
 
             return View();
         }
+
+        public ActionResult Portfolio()
+        {
+            ViewBag.Message = "Portfolio page";
+            return View();
+        }
     }
 }
