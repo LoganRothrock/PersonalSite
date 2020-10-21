@@ -1,0 +1,162 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html class="no-js">
+<body>
+    <section id="hero-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="block wow fadeInUp" data-wow-delay=".3s">
+                        <!-- Slider -->
+                        <section class="cd-intro">
+                            <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
+                                <span>HI, MY NAME IS LOGAN & I AM A</span><br>
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">DESIGNER</b>
+                                    <b>DEVELOPER</b>
+                                    <b>LEADER</b>
+                                </span>
+                            </h1>
+                        </section> <!-- cd-intro -->
+                        <!-- /.slider -->
+                        <h2 class="wow fadeInUp animated" data-wow-delay=".6s">
+                            Working hard to become a Full Stack Web Developer at Centriq. Worked with many languages such as HTML, CSS, JavaScript, SQL, and MVC
+                        </h2>
+                        <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#main-slider-->
+    <!--
+    ==================================================
+    About Section Start
+    ================================================== -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                        <h2>
+                            ABOUT ME
+                        </h2>
+                        <p>
+                            Hello, I am a Full Stack Web Developer eagerly looking to put my skills to use. I have known I wanted to code since HighSchool where I ended up taking four classes about coding that worked with Java and Visual Basic. 
+                        </p>
+                        <p>
+                            I enjoy playing games, solving puzzles, and reading in my spare time. I love coding and view the challenges as one huge puzzle to solve.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+                        <img src="~/Content/images/about/about.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- /#about -->
+    <!--
+    ==================================================
+    Portfolio Section Start
+    ================================================== -->
+    <section id="works" class="works">
+        <div class="container">
+            <div class="section-heading">
+                <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Projects</h1>
+                <p class="wow fadeInDown" data-wow-delay=".5s">
+                   These are some of my projects that I have been working on. Some for fun and others to get a better grasp on things like HTML, CSS, C#, JavaScript, SQL, and MVC
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                        <div class="img-wrapper">
+                            <img src="~/Content/images/portfolio/item-1.jpg" class="img-responsive" alt="this is a title">
+                            <div class="overlay">
+                                <div class="buttons">
+                                    <a target="_blank" href="single-portfolio.html">More Information</a>
+                                </div>
+                            </div>
+                        </div>
+                        <figcaption>
+                            <h4>
+                                <a href="#">
+                                    Mock Company Website
+                                </a>
+                            </h4>
+                            <p>
+                                A mock website made purely out of HTML and CSS all from scratch.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="img-wrapper">
+                            <img src="~/Content/images/portfolio/item-2.jpg" class="img-responsive" alt="this is a title">
+                            <div class="overlay">
+                                <div class="buttons">
+                                    <a target="_blank" href="single-portfolio.html">More Information</a>
+                                </div>
+                            </div>
+                        </div>
+                        <figcaption>
+                            <h4>
+                                <a href="#">
+                                    Dungeon Application
+                                </a>
+                            </h4>
+                            <p>
+                                Made with C#. A text based Role Playing Game.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="img-wrapper">
+                            <img src="~/Content/images/portfolio/item-3.jpg" class="img-responsive" alt="">
+                            <div class="overlay">
+                                <div class="buttons">
+                                    <a target="_blank" href="single-portfolio.html">More Information</a>
+                                </div>
+                            </div>
+                        </div>
+                        <figcaption>
+                            <h4>
+                                <a href="#">
+                                    Store Front
+                                </a>
+                            </h4>
+                            <p>
+                                A medevial themed Store Front using SQL and MVC
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+               
+            </div>
+        </div>
+    </section> <!-- #works -->
+    <section id="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
+                            SO WHAT YOU THINK ?</h2>
+                            <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms"> Send me an email about what you think about the site! If you want to just say hi that's cool too</p>
+                            <p class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">@Html.ActionLink("Get in touch", "Contact", "StronglyTypedData") </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

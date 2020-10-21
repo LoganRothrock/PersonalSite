@@ -1,0 +1,23 @@
+﻿@model PersonalSite.UI.MVC.Models.ContactViewModel
+@{
+    ViewBag.Title = "EmaiConfirmation";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<h3>Thank you @Model.Name</h3>
+
+<p>
+    We have recieved your email, and will respond within 24 hours. Details of your message are down below
+</p>
+
+<p class="success">
+    Name: @Model.Name
+    <br />
+    Email: @Model.Email
+    <br />
+    Subject: @Model.Subject
+    <br />
+    Message: @Model.Message
+</p>
+
