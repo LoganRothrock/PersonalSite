@@ -42,8 +42,12 @@ namespace PersonalSiteV2.UI.MVC.Controllers
                     ViewBag.ErrorMessage = $"Sorry, something went wrong. Error message: {ex.Message} <br />{ex.StackTrace}";
                     return View(cvm);
                 }
+                return View("EmailConfirmation", cvm);
             }
-            return View("EmailConfirmation",cvm);
+            else
+            {
+                return View(cvm);
+            }
         }
     }
 }

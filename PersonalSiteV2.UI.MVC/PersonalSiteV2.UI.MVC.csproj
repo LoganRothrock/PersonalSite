@@ -225,6 +225,8 @@
     <Content Include="Content\img\blog\post-img2.jpg" />
     <Content Include="Content\img\blog\prev.jpg" />
     <Content Include="Content\img\body-bg.png" />
+    <Content Include="Content\img\portfolio\DungeonOverView.PNG" />
+    <Content Include="Content\img\portfolio\LMS.PNG" />
     <Content Include="Content\img\skills\CLogo.png" />
     <Content Include="Content\img\skills\CSSLogo.png" />
     <Content Include="Content\img\skills\Html5Logo.png" />
@@ -638,6 +640,7 @@
     <Content Include="Content\fonts\fontawesome-webfont.woff2" />
     <Content Include="Content\fonts\FontAwesome.otf" />
     <Content Include="Content\css\style.css.map" />
+    <Content Include="Content\Logan Rothrock Resume IT.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

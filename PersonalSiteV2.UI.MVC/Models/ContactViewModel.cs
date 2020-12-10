@@ -17,7 +17,7 @@ namespace PersonalSiteV2.UI.MVC.Models
 
         [Required(ErrorMessage = "* A Subject is required.")]
         public string Subject { get; set; }
-
+    
         [UIHint("MultilineText")]
         [Required(ErrorMessage = "* A message is required")]
         public string Message { get; set; }
